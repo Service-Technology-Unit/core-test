@@ -1,0 +1,5 @@
+edu\ucdavis\ucdh\stu\core\test\servlets\DeleteMethodWebRequest.class
+edu\ucdavis\ucdh\stu\core\test\dao\BaseDaoTestCase.class
+edu\ucdavis\ucdh\stu\core\batch\SpringBatchJobTester.class
+edu\ucdavis\ucdh\stu\core\test\servlets\BaseServletTestCase.class
+edu\ucdavis\ucdh\stu\core\test\servlets\GenericSpringTestServlet.class
