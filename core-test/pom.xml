@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.ucdavis.ucdh.stu</groupId>
   <artifactId>core-test</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <name>core-test</name>
 	<description>
 		The core-test components include test utilities and
@@ -37,18 +37,6 @@
 		<url>https://svn.ucdmc.ucdavis.edu/repo/projects/core-test/trunk/current/core-test/</url>
 	</scm>
 
-	<pluginRepositories>
-		<pluginRepository>
-			<id>Codehaus Snapshots</id>
-			<url>http://snapshots.repository.codehaus.org/</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</pluginRepository>
-	</pluginRepositories>
 	<dependencies>
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -58,17 +46,17 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>4.3.19.RELEASE</version>
+			<version>4.3.28.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.3.19.RELEASE</version>
+			<version>4.3.28.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.3.19.RELEASE</version>
+			<version>4.3.28.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>httpunit</groupId>
@@ -78,7 +66,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.7</version>
+			<version>4.13.1</version>
 		</dependency>
 	</dependencies>
 
